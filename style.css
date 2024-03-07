@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: rgb(26, 26, 26);
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    padding: 5vh 0vw;
+}
+
+footer{
+    color: rgb(114, 114, 114);
+    text-align: center;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    padding: 5vh 0vw;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background-image: url(imgs/search.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+  }
+
+.search{
+    background-color: blue;
+    width: 80vw;
+    margin: auto;
+    margin-top: 5em;
+    font-size: 14px;
+}
