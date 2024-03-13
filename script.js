@@ -24,16 +24,16 @@ function showProfile(){
             }else{
                 document.getElementById('result').innerHTML = `
                     <img src="${data.avatar_url}" style="width:200px">
-                    <p>${data.name} (${data.login})</p>
-                    <p>${data.bio ? data.bio : "No Bio"}</p>
+                    <p>${data.name ? data.bio : "[No Name]"} (${data.login})</p>
+                    <p>${data.bio ? data.bio : "[No Bio]"}</p>
                     <p>-----------------------</p>
                     <p>Public Repositories: ${data.public_repos}</p>
                     <p>Followers: ${data.followers}</p>
                     <p>Following: ${data.following}</p>
-                    <p>Company: ${data.company ? data.company : "Not Informed"}</p>
-                    <p>Location: ${data.location ? data.location : "Not Informed"}</p>
-                    <p>Hireable: ${data.hireable ? data.hireable : "Not Informed"}</p>
-                    <p>Email: ${data.email ? data.email : "Not Informed"}</p>
+                    <p>Company: ${data.company ? data.company : "[Not Informed]"}</p>
+                    <p>Location: ${data.location ? data.location : "[Not Informed]"}</p>
+                    <p>Hireable: ${data.hireable ? data.hireable : "[Not Informed]"}</p>
+                    <p>Email: ${data.email ? data.email : "[Not Informed]"}</p>
                     <p>Last Update: ${data.updated_at}</p>
                     <p>GitHub: <a href="${data.html_url}" target="_blank">Link</a></p>
                 `
